@@ -1,0 +1,33 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+
+#table_container {
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+tr, td, th {
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+.container_summary {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}

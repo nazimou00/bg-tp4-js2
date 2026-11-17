@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des étudiants</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <main id="table_container">
+
+        <h2>Liste des étudiants</h2>
+
+        <table id="tableau">
+
+            <thead>
+                <tr>
+                    <th class="col_number">N</th>
+                    <th class="col_text">Nom</th>
+                    <th class="col_text">Prénom</th>
+                    <th class="col_number">Points</th>
+                    <th class="col_chkbox">Select</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+
+        </table>
+
+        <section class="container_summary">
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+        </section>
+
+        <div class="buttons">
+            <button onclick="doInsert('nom', 'prenom', 10)">
+                Ajouter
+            </button>
+
+            <button onclick="consoleTableau()">
+                Console Tableau
+            </button>
+        </div>
+
+    </main>
+
+</body>
+</html>
